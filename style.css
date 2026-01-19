@@ -21,7 +21,7 @@ header {
 }
 
 nav {
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     margin: 20px 200px;
     display: flex;
     justify-content: space-between;
@@ -35,18 +35,28 @@ nav {
 }
 
 .nav-btn button {
+background: linear-gradient(to right, #f9d423, #ff4e50, #8e44ad);
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 4px;
 padding: 12px 16px 12px 16px;
+border-radius: 25px;}
+
+.nav-span {
+    background: linear-gradient(to right, #ff8a71, #f441a5, #d900ff);
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 /* Hero section  */
 
 .hero-section {
     height: 760px ;
+    border-top: 1px solid rgba(71, 70, 70, 0.521);
     background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -109,7 +119,7 @@ padding: 12px 16px 12px 16px;
  .hero-btn-1 {
     padding: 12px 20px;
     border-radius: 25px;
-    background-color: brown;
+    background: linear-gradient(to right, #f9d423, #ff4e50, #8e44ad);
     color: white;
     font-weight: 600;
     justify-content: center;
